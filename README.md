@@ -1,6 +1,6 @@
 # tweet-this
 
-tweet-this allows you to define a set of words, terms or sentences to be tweeted in a container on a webpage. This is based on [InlineTweet.js](http://ireade.github.io/inlinetweetjs/). All credits goes to [Ire Aderinokun] (https://github.com/ireade). I only twerked (not tweek) a few codes.
+tweet-this allows you to define a set of words, terms or sentences to be tweeted in a container on a webpage. This is based on [InlineTweet.js](http://ireade.github.io/inlinetweetjs/). All credits goes to [Ire Aderinokun] (https://github.com/ireade). I only twerked (not tweaked) a few codes :) .
 
 
 
