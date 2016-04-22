@@ -9,7 +9,7 @@
 
 #### 1 - Include Script
 
-[Download the javascript file from here](https://github.com/emekaokoye/tweet-this/blob/master/src/tweet-this.js) and include it in your webpage. Place it at the bottom part of your webpage just before the '</body>' tag.
+[Download the javascript file from here](https://github.com/emekaokoye/tweet-this/blob/master/src/tweet-this.js) and include it in your webpage. Place it at the bottom part of your webpage just before the </body> tag.
 
 ```html
 <script src="path/to/tweet-this.js"></script>
