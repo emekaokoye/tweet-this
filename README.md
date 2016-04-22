@@ -9,36 +9,38 @@
 
 #### 1 - Include Script
 
-[Download the file from here](https://raw.githubusercontent.com/ireade/inlinetweetjs/gh-pages/src/inline-tweet.min.js) and include it in your webpage.
+[Download the javascript file from here](https://github.com/emekaokoye/tweet-this/blob/master/src/tweet-this.js) and include it in your webpage. Place it at the bottom part of your webpage just before the '</body>' tag.
 
 ```html
-<script src="path/to/inline-tweet.min.js"></script>
+<script src="path/to/tweet-this.js"></script>
 ```
 
 
 #### 2 - Wrap Text
 
-Wrap the tweetable text in a container element of your choice (`span` recommended) with the data attribute, `data-inline-tweet`
+Wrap an action text for your tweet in a container element of your choice (`span` recommended) with the data attribute, `data-inline-tweet`
 
 
 ```html
-<span data-inline-tweet>Lorem Khaled Ipsum is a major key to success</span>
+<span data-inline-tweet>Share on twitter</span>
 ```
 
 
-#### 3 - Additional Options
+#### 3 - Options
 
-You can add more data attributes to cutomise the tweeted output -
+You can add data attributes to customise the tweeted output -
 
+- `data-inline-tweet-msg` — Add the tweetable text or tweet
 - `data-inline-tweet-via` — Add a twitter username (without the @) to append to the tweet
 - `data-inline-tweet-tags` - Add hashtags to the tweet (comma-separated, no spaces)
 - `data-inline-tweet-url` — Tweet a URL different to the current page url
 
 ```html
 <span data-inline-tweet       
-	  data-inline-tweet-via="ireaderinokun"   
-	  data-inline-tweet-tags="webdesign,webdev,js,yolo"    
-	  data-inline-tweet-url="bitsofco.de">   
-	Lorem Khaled Ipsum is a major key to success 
+	  data-inline-tweet-msg="Any ecommerce organization not embracing semantic search has itself to blame"   
+	  data-inline-tweet-via="EmekaOkoye"   
+	  data-inline-tweet-tags="SemanticWeb,SemanticSearch,LinkedData"    
+	  data-inline-tweet-url="cymantiks.com">   
+	Tweet this 
 </span>
 ```
